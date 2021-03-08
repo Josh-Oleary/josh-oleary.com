@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/homePage.css">
+    <title>Josh_Oleary</title>
+</head>
+<body>
+<nav>
+    <a id="navigateHome" href="index.html">Josh O'leary</a>
+    <a href="../pages/resume.html">Resume</a>
+    <a href="../pages/projects.html">Projects</a>
+    <a href="../pages/contactMe.html">Contact Me</a>
+
+</nav>
+<div class="contactForm">
+    <h3>Contact Me</h3>
+    <label for="name">Name:</label>
+    <input class="inputField" type="text" name="name">
+    <label for="email">Email:</label>
+    <input class="inputField" type="email" name="email">
+    <div>
+        <h5>Type of Work:</h5>
+      </div>
+      <div>
+      <input type="radio" id="freelance" name="drone" value="freelance"
+             checked>
+      <label for="freelance">Freelance</label>
+    </div>
+      <div>
+        <input type="radio" id="full-time" name="drone" value="full-time">
+        <label for="full-time">Full-time</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="part-time" name="drone" value="part-time">
+        <label for="part-time">Part-time</label>
+      </div>
+      <div>
+        <input type="radio" id="tutor" name="drone" value="tutor">
+        <label for="tutor">Tutor</label>
+      </div>
+      <textarea name="details" id="detailsInput" cols="30" rows="20" placeholder="Tell me more..."></textarea>
+      <button id="formSubmitBtn">Submit</button>
+</div>
+    
+       
+   
+    
+</body>
+</html>
