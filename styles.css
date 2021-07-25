@@ -1,0 +1,201 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+/*styling for hero-banner*/
+#hero {
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	/* transform: translateY(-4em); */
+}
+.hero-banner {
+	text-align: center;
+	padding-top: 10em;
+	animation: 1.5s fadeIn;
+}
+.hero-banner h1 {
+	font-size: 4em;
+}
+.hero-banner h4 {
+	opacity: .7;
+}
+nav {
+	background-color: rgba(43, 60, 82, 0.527);
+}
+.nav-link {
+	color: black;
+	font-weight: 600;
+}
+/*hero-banner animation*/
+@keyframes fadeIn {
+	from {
+		transform: translateY(1em);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.about-me-content {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	line-height: 1.7;
+}
+.about-me-content p {
+	margin-top: 1em;
+	text-align: center;
+}
+
+/* tech stack styles */
+.section-header {
+	text-align: center;
+	padding-top: .5em;
+	font-size: 35px;
+}
+.tech-stack {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 1em;
+}
+.tech-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.tech-card img {
+	height: 6em;
+	width: 6em;
+	margin-bottom: .5em;
+}
+.tech-icons {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1em;
+}
+.tech-icons img {
+	flex-basis: 40%;
+	margin: .5em;
+	height: 2.2em;
+	width: 3em;
+}
+#mongoDB {
+	margin: auto;
+	width: 8em;
+}
+/* card styles */
+.project-card img {
+	width: 10em;
+	padding: 1em;
+}
+.project-card-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+#weatherPrjct {
+	background-color: rgba(26, 138, 230, 0.664);
+}
+#calcPrjct {
+	background-color: rgba(14, 94, 3, 0.616);
+}
+#marktPrjct {
+	background-color: rgba(128, 3, 3, 0.568);
+}
+.project-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 0 15px;
+	padding: 1em;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.514);
+}
+.project-card p {
+	width: 15em;
+	text-align: center;
+}
+.project-card h5 {
+	font-size: 25px;
+	margin-top: .5em;
+}
+.project-link {
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	color: black;
+	background-color: rgba(88, 122, 167, 0.158);
+	padding: .3em;
+	transition: 250ms;
+}
+.project-link:hover {
+	background-color: rgba(43, 60, 82, 0.527);
+	color: white;
+}
+/* styles for contact form */
+.contact_form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 3em;
+}
+
+.contact_inputs form {
+	display: flex;
+	flex-direction: column;
+	width: 30em;
+}
+#formBtn {
+	margin-top: 1em;
+	width: 5em;
+	height: 2em;
+	border-radius: 10px;
+	background-color: rgba(88, 122, 167, 0.158);
+	transition: 250ms;
+}
+#formBtn:hover {
+	background-color: rgba(43, 60, 82, 0.527);
+	box-shadow: 0 0 5px;
+	color: white;
+}
+#formBtn:active {
+	color: white;
+}
+#userMsg {
+	height: 7em;
+}
+footer {
+	height: 3em;
+	background-color: rgba(43, 60, 82, 0.527);
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+footer p {
+	padding: 0 1em;
+	font-weight: 600;	
+}
+
+section:nth-of-type(2n) {
+	background-color: rgba(88, 122, 167, 0.158);
+}
+section {
+	padding: 2em;
+}
+.line-break {
+	border: 3px solid rgb(0, 0, 97) !important;
+	width: 10em;
+	margin: auto;
+	margin-bottom: 2em;
+}
+

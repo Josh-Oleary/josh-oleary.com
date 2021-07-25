@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Josh Oleary</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">JDO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactForm">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<section id="hero" style="background-image: url('./images/portfolioBackground.jpg'); z-index: -1;">
+    <div class="hero-banner">
+        <h1>Josh O'Leary</h1>
+        <h4>Full-Stack Web Developer</h4>
+    </div>
+</section>
+<section id="about-me">
+  <h3 class="section-header">About Me</h3> 
+  <hr class="line-break">
+  <div class="about-me-content">
+    <p>Hello! My name is Josh and I am a self-taught JavaScript developer. I am proud of being self-taught, as it speaks to my dedication, discipline and drive.</p>
+    <p>I began my journey as a web developer during the 2020 pandemic. At the time, I was a bar manager at a local eatery. Once everything shut down, I started looking for jobs I could do from home. That is when I discovered progamming. What started off as a hobby, soon turned into a passion. I fell in love with the world of web development and all of the doors it would open.</p>
+    <p>I am currently the lead developer for a Canadian non-profit organization promoting avalanche safety and education. In this project I honed my skills as a full-stack developer. This project is my baby. I honed my skills as a full-stack developer: from styling a responsive front-end, to building and consuming a REST API, to structuring our databse. This project gave me the experience and confidence needed to make it as a developer.</p>
+  </div>
+</section>
+<section>
+  <h3 class="section-header">Tech Stack</h3>
+  <hr class="line-break">
+  <div class="tech-stack">
+    <div class="tech-card">
+      <img src="https://img.icons8.com/carbon-copy/100/000000/html.png"/>
+      <h4>Front End</h4>
+      <div class="tech-icons">
+        <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+        <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
+        <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+        <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+      </div>
+    </div>
+    <div class="tech-card">
+      <img src="https://img.icons8.com/ios/50/000000/api-settings.png"/>
+      <h4>Back End</h4>
+      <div class="tech-icons">
+        <img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node-dot-js&logoColor=white"/>
+        <img alt="Express.js" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
+        <img id="mongoDB" alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
+      </div>
+    </div>
+    <div class="tech-card">
+      <img src="https://img.icons8.com/wired/64/000000/administrative-tools.png"/>
+      <h4>Tools</h4>
+      <div class="tech-icons">
+        <img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+        <img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+        <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+        <img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=red" />
+      </div>
+    </div>
+  </div>
+</section>
+  
+<section id="projects">
+  <h3 class="section-header">Projects</h3>
+  <hr class="line-break">
+  <div class="project-card-container">
+    <div class="project-card">
+      <img id="calcPrjct" src="./images/calcIcon.svg" alt="">
+      <h5>Tipout Calculator</h5>
+      <p>A calculator that breaks down tipout based on percentage of sales</p>
+      <a class="project-link" href="https://josh-oleary.github.io/lsTipout/">Check it out!</a>
+    </div>
+    <div class="project-card">
+      <img id="weatherPrjct" src="./images/weatherIcon.svg" alt="">
+      <h5>Weather App</h5>
+      <p>A weather application that uses a 3rd party API to dynamically load page</p>
+      <a class="project-link" href="https://josh-oleary.github.io/weather_app/">Check it out!</a>
+    </div>
+    <div class="project-card">
+      <img id="marktPrjct"src="./images/websiteIcon.svg" alt="">
+      <h5>Coach Website</h5>
+      <p>A reponsive landing page for a life coach website</p>
+      <a class="project-link" href="https://josh-oleary.github.io/coachMarketing/">Check it out!</a>
+    </div>
+  </div>
+</section>
+
+<section id="contactForm">
+  <div class="contact_form">
+    <h3 class="section-header">Contact Me</h3>
+    <hr class="line-break">
+    <div class="contact_inputs">
+    <form action="mailto:jdoleary91@gmail.com" method="POST" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" name="name">
+      <label for="email">Email</label>
+      <input type="email" name="email">
+      <label for="userMsg">Message</label>
+      <textarea name="userMsg" id="userMsg" cols="20" rows="2"></textarea>
+    </div>
+    <button type="submit" value="Submit" id="formBtn">Send</button>
+    </form>
+  </div>
+</section>
+<footer>
+  <p>Josh O'leary</p>
+  <p>Icons by FreeIcon.com</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
