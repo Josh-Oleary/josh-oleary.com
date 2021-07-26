@@ -21,9 +21,11 @@ body {
 }
 .hero-banner h1 {
 	font-size: 4em;
+	font-family: 'Roboto Mono', monospace;
 }
 .hero-banner h4 {
 	opacity: .7;
+	font-family: 'Raleway', sans-serif;
 }
 nav {
 	background-color: rgba(88, 122, 167, 0.158);
@@ -31,6 +33,10 @@ nav {
 .nav-link {
 	color: black;
 	font-weight: 600;
+	font-family: 'Roboto Mono', monospace;
+}
+.navbar-brand {
+	font-family: 'Roboto Mono', monospace;
 }
 /*hero-banner animation*/
 @keyframes fadeIn {
@@ -55,6 +61,7 @@ nav {
 .about-me-content p {
 	margin-top: 1em;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
 }
 
 /* tech stack styles */
@@ -62,6 +69,8 @@ nav {
 	text-align: center;
 	padding-top: .5em;
 	font-size: 35px;
+	font-weight: 500;
+	font-family: 'Roboto Mono', monospace;
 }
 .tech-stack {
 	display: flex;
@@ -74,6 +83,9 @@ nav {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
+}
+.tech-card h4 {
+	font-family: 'Roboto Mono', monospace;
 }
 .tech-card img {
 	height: 6em;
@@ -126,10 +138,15 @@ nav {
 .project-card p {
 	width: 15em;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+.project-card a {
+	font-family: 'Raleway', sans-serif;
 }
 .project-card h5 {
 	font-size: 25px;
 	margin-top: .5em;
+	font-family: 'Roboto Mono', monospace;
 }
 .project-link {
 	text-decoration: none;
@@ -185,7 +202,8 @@ footer {
 }
 footer p {
 	padding: 0 1em;
-	font-weight: 600;	
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
 }
 
 section:nth-of-type(2n) {
