@@ -5,6 +5,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 /*styling for hero-banner*/
 #hero {
@@ -71,7 +72,7 @@ nav {
 .tech-card {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 }
 .tech-card img {
@@ -91,8 +92,8 @@ nav {
 	width: 3em;
 }
 #mongoDB {
+	width: 7em;
 	margin: auto;
-	width: 8em;
 }
 /* card styles */
 .project-card img {
@@ -101,7 +102,8 @@ nav {
 }
 .project-card-container {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 #weatherPrjct {
 	background-color: rgba(26, 138, 230, 0.664);
@@ -119,7 +121,7 @@ nav {
 	box-shadow: 0 0 15px;
 	padding: 1em;
 	border-radius: 5px;
-	background-color: rgba(255, 255, 255, 0.514);
+	background-color: rgb(255, 255, 255);
 }
 .project-card p {
 	width: 15em;
@@ -198,4 +200,43 @@ section {
 	margin: auto;
 	margin-bottom: 2em;
 }
-
+/* responsive media queries */
+@media screen
+	and (min-width: 668px)
+	and (max-width: 992px) {
+		.project-card {
+			flex-basis: 40%;
+			margin-top: 3em;
+		}
+		.hero-banner h1 {
+			font-size: 6em;
+		}
+		.hero-banner h4 {
+			font-size: 2em;
+		}
+		.hero-banner {
+			transform: translateY(10em);
+			animation: none;
+		}
+		.tech-icons {
+			flex-direction: column;
+		}
+		.tech-icons img, #mongoDB {
+			width: 5em;
+			height: 2.5em;
+		}
+	}
+@media screen and (max-width: 668px) {
+	.project-card {
+		margin-top: 3em;
+	}
+	.tech-stack {
+		flex-direction: column;
+	}
+	.tech-card {
+		margin-top: 1em;
+	}
+	.contact_inputs form {
+		width: 85vw;
+	}
+}
