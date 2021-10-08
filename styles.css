@@ -159,6 +159,7 @@ nav {
 	background-color: rgba(88, 122, 167, 0.158);
 	padding: .3em;
 	transition: 250ms;
+	margin-top: .5em;
 }
 .project-link:hover {
 	background-color: rgba(43, 60, 82, 0.527);
